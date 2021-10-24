@@ -25,7 +25,7 @@
 # More For You:
 * you can execute anti sandbox functions before the download of the payload, and possibly change the link to a good binary instead of the shellcode .
 * this way the loader will download a known good binary [make sure its signed by microsoft for extra]
-* so when we are in a sandbox we will download a good software, else a our shellcode
+* so when we are in a sandbox we will download a good software, else our shellcode
 
 # Based on : 
 * https://github.com/am0nsec/HellsGate
